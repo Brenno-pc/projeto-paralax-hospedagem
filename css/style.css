@@ -45,15 +45,20 @@ header {
     }
 
 
-    
-main 
-    .normal {
-        background-color: var(--cor2);
-    }
 
-    .imagem {
-        background: url();
+main
+    section {
+        padding-top: 8vh;
+        padding-bottom: 8vh;
+        line-height: 2em;
     }
+        .normal {
+            background-color: var(--cor1);
+        }
+
+        .imagem {
+
+        }
 
 
 
