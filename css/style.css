@@ -8,13 +8,35 @@
 :root {
     --cor1:black;
     --cor2:white;
+
+    --font1:;
+    --font2:;
+    --font3:;
 }
+
 * {
     margin: 0px;
     padding: 0px ;
 }
 
 header {
+    background-color: var(--cor1);
     color: var(--cor2);
-    background-color: var(--cor1)
+    padding: 30px 10px
 }
+    header > h1 {
+        text-align: center;
+        margin-bottom: 12px ;
+    }
+    header > p {
+        text-align: center;
+    }
+
+main 
+    .normal {
+        background-color: var(--cor2);
+    }
+
+    .imagem {
+        background: url();
+    }
