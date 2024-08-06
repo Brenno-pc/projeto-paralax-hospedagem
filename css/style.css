@@ -1,20 +1,26 @@
 @charset "utf-8";
 
 @font-face {
-    font-family: ;
-    src: url();
+    font-family: 'Sriracha' ;
+    src: url(../fontes/Sriracha/Sriracha-Regular.ttf) format(TrueType);
+}
+
+@font-face {
+    font-family: 'Rubik' ;
+    src: url(../fontes/Rubik_Mono_One/RubikMonoOne-Regular.ttf) format(TrueType);
 }
 
 
+
 :root {
-    --font1:;
-    --font2:;
-    --font3:;
+    --font-title:'Rubik',cursive ;
+    --font-paragraph:'Sriracha',cursive;
 }
 
 
 * {
-    font-size: 16px;
+    font-family: var(--font-paragraph);
+    font-size: 3vw;
     margin: 0px;
     padding: 0px ;
 }
@@ -28,16 +34,20 @@ header {
     padding: 30px 10px
 }
     header > h1 {
+        font-family: var(--font-title);
+        font-size: 5vw;
         font-variant: small-caps;
         text-align: center;
         margin-bottom: 12px ;
     }
     header > p {
+        font-size: 16px ;
         text-align: center;
         margin-bottom: 12px ;
     }
     header > p > a {
         color: white ;
+        font-size: 16px;
         font-weight: bolder;
         text-decoration: none;
     }
@@ -65,9 +75,8 @@ main
         }
         .imagem > p {
             background-color: rgba(105, 102, 102, 0.68);
-            width: 400px;
+            width: 550px;
         }
-
 
 footer {
     color: white;
