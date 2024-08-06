@@ -1,1 +1,20 @@
 @charset "utf-8";
+
+@font-face {
+    font-family: ;
+    src: url();
+}
+
+:root {
+    --cor1:black;
+    --cor2:white;
+}
+* {
+    margin: 0px;
+    padding: 0px ;
+}
+
+header {
+    color: var(--cor2);
+    background-color: var(--cor1)
+}
