@@ -5,14 +5,13 @@
     src: url();
 }
 
-:root {
-    --cor1:black;
-    --cor2:white;
 
+:root {
     --font1:;
     --font2:;
     --font3:;
 }
+
 
 * {
     font-size: 16px;
@@ -20,13 +19,16 @@
     padding: 0px ;
 }
 
+body {
+    background-color: rgb(63, 59, 59);
+}
 header {
-    background-color: var(--cor1);
-    color: var(--cor2);
+    background-color: black;
+    color: white;
     padding: 30px 10px
 }
     header > h1 {
-        font-variant: small-caps; /*deixa as letras maiusculas porém pequenas*/
+        font-variant: small-caps;
         text-align: center;
         margin-bottom: 12px ;
     }
@@ -35,36 +37,41 @@ header {
         margin-bottom: 12px ;
     }
     header > p > a {
-        color: var(--cor2);
+        color: white ;
         font-weight: bolder;
         text-decoration: none;
-        
     }
-    header > p > a:hover {
-        text-decoration: underline;
-    }
+        header > p > a:hover {
+            text-decoration: underline;
+        }
 
 
 
 main
     section {
-        padding-top: 8vh;
+        padding-top: 12vh;
+        padding-left: 28px;
         padding-bottom: 8vh;
         line-height: 2em;
     }
         .normal {
-            background-color: var(--cor1);
+            background-color: white;
+            color: black;
         }
 
         .imagem {
-
+            background-color: black;
+            color: white ;
+        }
+        .imagem > p {
+            background-color: rgba(105, 102, 102, 0.68);
+            width: 400px;
         }
 
 
-
 footer {
-    color: var(--cor2);
-    background-color: var(--cor1);
+    color: white;
+    background-color: black ;
     text-align: center;
     padding: 11px;
 }
