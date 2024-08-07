@@ -1,100 +1,56 @@
 @charset "utf-8";
 
 @font-face {
-    font-family: 'Sriracha' ;
-    src: url(../fontes/Sriracha/Sriracha-Regular.ttf) format(TrueType);
-}
-
-@font-face {
     font-family: 'Rubik' ;
     src: url(../fontes/Rubik_Mono_One/RubikMonoOne-Regular.ttf) format(TrueType);
 }
 
-
+@font-face {
+    font-family: 'Sriracha' ;
+    src: url(../fontes/Sriracha/Sriracha-Regular.ttf) format(TrueType);
+}
 
 :root {
-    --font-title:'Rubik',cursive ;
-    --font-paragraph:'Sriracha',cursive;
+    --font-body:'Sriracha',cursive;
+    --font-title:'Rubik',cursive;
 }
-
 
 * {
-    font-family: var(--font-paragraph);
-    font-size: 2.3vw;
+    font-size: 16px ;
     margin: 0px;
-    padding: 0px ;
+    padding: 0px;
+}
+body {
+    background-color: grey;
 }
 
-body {
-    background-color: rgb(63, 59, 59);
-}
 header {
     background-color: black;
-    color: white;
-    padding: 30px 10px
+    color: white ;
 }
-    header > h1 {
+    h1 {   
         font-family: var(--font-title);
-        font-size: 5vw;
+        font-size: 6vw ;
         font-variant: small-caps;
-        text-align: center;
-        margin-bottom: 12px ;
+        padding-top: 30px ;
+        text-align: center ;
+        
     }
     header > p {
-        font-size: 16px ;
+        font-family: var(--font-body);
+        padding-bottom: 30px ;
         text-align: center;
-        margin-bottom: 12px ;
     }
     header > p > a {
         color: white ;
-        font-size: 16px;
         font-weight: bolder;
         text-decoration: none;
     }
-        header > p > a:hover {
-            text-decoration: underline;
-        }
 
-
-
-main
-    section {
-        padding-top: 12vh;
-        padding-left: 28px;
-        padding-bottom: 8vh;
-        line-height: 2em;
-    }
-        section > p {
-            padding-bottom: 2em;
-        }
-        .normal {
-            background-color: white;
-            color: black;
-        }
-
-        .imagem {
-            background-color: black;
-            color: white ;
-        }
-            .imagem > p {
-                background-color: rgba(105, 102, 102, 0.68);
-                width: 500px ;
-                
-            }
-            #img01 {
-                background: url(https://p1.pxfuel.com/preview/86/55/586/amaryllis-amaryllidaceae-spider-lily-red-flowers.jpg) ;
-                background-position: right center ;
-                background-repeat: no-repeat;
-                background-size: cover;
-            }
-            #img02 {
-                background: url() ;
-            }
-
-
-footer {
-    color: white;
-    background-color: black ;
-    text-align: center;
-    padding: 11px;
+    
+section {
+    padding-top: 12vh;
+    padding-left: 28px;
+    padding-bottom: 8vh;
+    line-height: 2em;
 }
