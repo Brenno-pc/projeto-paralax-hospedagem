@@ -20,7 +20,7 @@
 
 * {
     font-family: var(--font-paragraph);
-    font-size: 3vw;
+    font-size: 2.3vw;
     margin: 0px;
     padding: 0px ;
 }
@@ -64,6 +64,9 @@ main
         padding-bottom: 8vh;
         line-height: 2em;
     }
+        section > p {
+            padding-bottom: 2em;
+        }
         .normal {
             background-color: white;
             color: black;
@@ -73,10 +76,21 @@ main
             background-color: black;
             color: white ;
         }
-        .imagem > p {
-            background-color: rgba(105, 102, 102, 0.68);
-            width: 550px;
-        }
+            .imagem > p {
+                background-color: rgba(105, 102, 102, 0.68);
+                width: 500px ;
+                
+            }
+            #img01 {
+                background: url(https://p1.pxfuel.com/preview/86/55/586/amaryllis-amaryllidaceae-spider-lily-red-flowers.jpg) ;
+                background-position: right center ;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            #img02 {
+                background: url() ;
+            }
+
 
 footer {
     color: white;
