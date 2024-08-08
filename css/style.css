@@ -20,8 +20,9 @@
     margin: 0px;
     padding: 0px;
 }
-body {
+html, body {
     background-color: grey;
+    min-height: 100vh ;
 }
 
 header {
@@ -74,19 +75,22 @@ section {
     .imagem {
         background-color:black;
         color: white ;
+        box-shadow: inset 5px 5px 12px rgba(15, 15, 15, 0.396);
     }
         .imagem > p {
             text-align: justify;
             width: 37%;
             padding: 10px ;
             box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.724);
+            
         } 
             #img01 {
                 background: url(https://www.ultraimagehub.com/wallpapers/tr:flp-false,gx-0.8,gy-1,q-75,rh-3264,rw-5824,th-1080,tw-1920/1247495878370005082.jpeg);
                 background-repeat: no-repeat;
                 background-size: cover ;
-                position: right center;
+                background-position: right center ;
                 font-style: italic;
+                background-attachment: fixed;
             }
                 #img01 > p {
                     background: linear-gradient(to left,#792c6744, #0026ff38 );
@@ -99,7 +103,7 @@ section {
                 background-size: cover ;
                 position: left center;
                 font-style: italic;
-                
+                background-attachment: fixed;
             }
                 #img02 > p {
                     background: linear-gradient(to left, #ffff0019, #ffd9000c);
