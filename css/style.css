@@ -72,9 +72,9 @@ section {
         color: white ;
     }
     .imagem > p {
-        width: 35%;
+        text-align: justify;
+        width: 33%;
         padding: 10px ;
-
         box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.724);
     }
         #img01 {
@@ -82,14 +82,20 @@ section {
             background-repeat: no-repeat;
             background-size: cover ;
             position: right center;
+            font-style: italic;
         }
             #img01 > p {
-                background-color: rgba(255, 182, 193, 0.267) ;
+                background-color: rgba(121, 44, 103, 0.267) ;
             }
 
         #img02 {
+            background: url(https://lptc.com.br/wp-content/uploads/2023/10/texture-handwriting-sutterlin-vintage-99562.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover ;
+            position: left center;
+            font-style: italic;
         }
             #img02 > p {
-
+                background-color: rgba(255, 225, 0, 0.246) ;
             }
 
