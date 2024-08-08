@@ -54,7 +54,7 @@ header {
 section {
     padding-top: 10vh;
     padding-left: 30px;
-    padding-bottom: 6vh;
+    padding-bottom: 10vh;
 }
     section > p {
         font-family: var(--font-body) ;
@@ -71,16 +71,25 @@ section {
         background-color:black;
         color: white ;
     }
-        #img01 > p {
-            background-color: grey ;
-            width: 35%;
-            padding: 10px ;
-            border: 1px solid aqua;
+    .imagem > p {
+        width: 35%;
+        padding: 10px ;
+
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.724);
+    }
+        #img01 {
+            background: url(https://www.ultraimagehub.com/wallpapers/tr:flp-false,gx-0.8,gy-1,q-75,rh-3264,rw-5824,th-1080,tw-1920/1247495878370005082.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover ;
+            position: right center;
         }
-        #img02 > p {
-            background-color: grey ;
-            width: 35%;
-            padding: 10px ;
-            border: 1px solid aqua;
+            #img01 > p {
+                background-color: rgba(255, 182, 193, 0.267) ;
+            }
+
+        #img02 {
         }
+            #img02 > p {
+
+            }
 
