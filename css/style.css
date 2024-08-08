@@ -30,7 +30,7 @@ header {
 }
     h1 {   
         font-family: var(--font-title);
-        font-size: 6vw ;
+        font-size: 5.5vw ;
         font-variant: small-caps;
         padding-top: 30px ;
         text-align: center ;
@@ -46,11 +46,41 @@ header {
         font-weight: bolder;
         text-decoration: none;
     }
+        header > p > a:hover {
+            text-decoration: underline;
+        }
 
     
 section {
-    padding-top: 12vh;
-    padding-left: 28px;
-    padding-bottom: 8vh;
-    line-height: 2em;
+    padding-top: 10vh;
+    padding-left: 30px;
+    padding-bottom: 6vh;
 }
+    section > p {
+        font-family: var(--font-body) ;
+        line-height: 2em;
+        font-size: 2.7vw;
+        margin: 5px;
+    }
+
+    .normal {
+        background-color: white ;
+        color: black;
+    }
+    .imagem {
+        background-color:black;
+        color: white ;
+    }
+        #img01 > p {
+            background-color: grey ;
+            width: 35%;
+            padding: 10px ;
+            border: 1px solid aqua;
+        }
+        #img02 > p {
+            background-color: grey ;
+            width: 35%;
+            padding: 10px ;
+            border: 1px solid aqua;
+        }
+
